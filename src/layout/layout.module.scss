@@ -1,0 +1,14 @@
+.layout {
+  width: 600px;
+  height: 540px;
+  background: #fff;
+
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+
+  border-radius: 10px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    min-height: 100vh;
+  }
+}
